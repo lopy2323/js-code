@@ -1,9 +1,13 @@
-const huidigeDag= "maandag";
-
-if(huidigeDag == "maandag" || huidigeDag == "dinsdag" || huidigeDag == "woensdag" || huidigeDag == "donderdag"){
-    console.log("Ik moet naar school");
-} else if(huidigeDag == "vrijdag"){
-    console.log("ik moet naar school");
+let CurrentDate = new Date();
+let DayOfWeek = CurrentDate.getDay();
+let day;
+if (DayOfWeek == 6 ){
+    day = "zaterdag";
+}else if (DayOfWeek == 7 ){
+    day = "zondag";
+}
+if(day == "zondag" || day == "zaterdag" ){
+    console.log("ik moet niet naar school");
 }else{
-    console.log("ik hoef niet naar school");
+    console.log("ik moet naar school");
 };
