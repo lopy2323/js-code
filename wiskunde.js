@@ -17,7 +17,7 @@ function stellingvanpytagras(nummer1,nummer2){
    let uitkost = Math.sqrt(langerauw);
    return uitkost;
 };
-let antword = stellingvanpytagras(10,10);
+let antword = stellingvanpytagras(4,3);
 console.log("driehoek langezeide",antword);
 function gemiddelde(nummer1,nummer2,nummer3,nummer4,nummer5,nummer6,nummer7){
   let total = nummer1 + nummer2 + nummer3 + nummer4 + nummer5 + nummer6 + nummer7;
